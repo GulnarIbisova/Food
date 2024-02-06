@@ -16,4 +16,34 @@ section {
 section h1 {
   font-size: 45px;
   font-weight: 700;
+}
+
+header {
+  padding: 20px 0;
+}
+header .imgbox {
+  width: 30px;
+}
+header nav a {
+  font-size: 18px;
+  color: #8c8999;
+  margin-right: 30px;
+}
+header nav .home-color {
+  color: #74bebc;
+}
+header .btn {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  header .btn {
+    display: block;
+    border-radius: 2px;
+    background-color: #cfcdcd;
+    width: 30px;
+    height: 30px;
+  }
+  header nav {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
