@@ -159,7 +159,7 @@ header .btn {
   border-radius: 5px;
 }
 #thehome .imgbox {
-  width: 520px;
+  width: 50%;
 }
 @media screen and (max-width: 992px) {
   #thehome .textbox {
@@ -169,7 +169,11 @@ header .btn {
     align-items: center;
     flex-direction: column;
   }
+  #thehome .textbox .btn {
+    padding: 10px 35px;
+  }
   #thehome .textbox h1 {
+    text-align: center;
     width: 340px;
     font-size: 53px;
   }
@@ -178,9 +182,6 @@ header .btn {
     line-height: 1.2;
     margin: 20px 90px;
   }
-  #thehome .textbox .btn {
-    padding: 10px 35px;
-  }
   #thehome .gln {
     padding: 50px 0;
     display: flex;
@@ -188,15 +189,15 @@ header .btn {
     align-items: center;
   }
   #thehome .gln .imgbox {
-    width: 350px;
+    width: 50%;
   }
 }
 @media screen and (max-width: 405px) {
+  #thehome .gln .imgbox {
+    width: 50%;
+  }
   #thehome .textbox h5 {
     font-size: 15px;
     margin: 10px 45px;
-  }
-  #thehome .gln .imgbox {
-    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
