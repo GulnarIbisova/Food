@@ -119,22 +119,6 @@ header .btn {
     width: 350px;
   }
 }
-@media screen and (max-width: 405px) {
-  #beautiful .box {
-    text-align: center;
-  }
-  #beautiful .box h1 {
-    font-size: 43px;
-    margin: 0 40px;
-  }
-  #beautiful .box h4 {
-    font-size: 16px;
-  }
-  #beautiful .box h5 {
-    font-size: 15px;
-    line-height: 1.2;
-  }
-}
 
 #thehome {
   background-color: #f1f8f9;
@@ -192,21 +176,12 @@ header .btn {
     width: 50%;
   }
 }
-@media screen and (max-width: 405px) {
-  #thehome .gln .imgbox {
-    width: 50%;
-  }
-  #thehome .textbox h5 {
-    font-size: 15px;
-    margin: 10px 45px;
-  }
-}
 
 #works h1 {
   font-weight: 700;
   font-size: 60px;
   color: #36b3bd;
-  margin-bottom: 60px;
+  margin-bottom: 15px;
 }
 #works .box .imgbox {
   width: 350px;
@@ -239,13 +214,5 @@ header .btn {
   }
   #works h1 {
     font-size: 45px;
-  }
-}
-@media screen and (max-width: 405px) {
-  #works h1 {
-    font-size: 55px;
-  }
-  #works h1 .textbox h4 {
-    width: 175px;
   }
 }/*# sourceMappingURL=style.css.map */
