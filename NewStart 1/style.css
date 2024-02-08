@@ -35,15 +35,19 @@ header nav .home-color {
 header .btn {
   display: none;
 }
-@media screen and (max-width: 991px) {
+header .btn .icon {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 992px) {
   header .btn {
     display: block;
     border-radius: 2px;
-    background-color: #cfcdcd;
+    background-color: #f2f2f4;
     width: 30px;
     height: 30px;
   }
-  header nav {
+  header nav a {
     display: none;
   }
 }
@@ -214,5 +218,105 @@ header .btn {
   }
   #works h1 {
     font-size: 45px;
+  }
+}
+
+#browse .textbox {
+  width: 500px;
+  text-align: center;
+}
+#browse .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #3cc1d8;
+}
+#browse .textbox h4 {
+  font-size: 20px;
+  color: #6c7480;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+#browse .textbox h4 span {
+  color: #3cc1d8;
+  text-decoration-line: underline;
+}
+#browse .btn {
+  font-size: 18px;
+  border: 0.5px solid #bdbdbd;
+  padding: 15px 46px;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+#browse .bgc {
+  background-color: #3cc1d8;
+  color: white;
+}
+#browse .box {
+  padding: 30px;
+}
+#browse .box .imgbox {
+  width: 150px;
+  border-radius: 10px;
+}
+#browse .box .textbox {
+  text-align: left;
+  width: auto;
+  margin-left: 20px;
+}
+#browse .box .textbox .minibox h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+#browse .box .textbox .minibox h5 {
+  color: #3cc1d8;
+  font-size: 18px;
+}
+#browse .box .textbox p {
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 1.2;
+  color: rgba(35, 47, 66, 0.5215686275);
+}
+#browse .box .textbox .add {
+  display: flex;
+}
+#browse .box .textbox .add input {
+  border: 1px solid #e1e1e1;
+  background-color: #e9e9e9;
+  width: 50px;
+}
+#browse .box .textbox .add .btn {
+  background-color: #3cc1d8;
+  color: white;
+  padding: 7px 20px;
+}
+#browse .big {
+  padding: 17px 53px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 401px) {
+  #browse .textbox h4 {
+    width: 328px;
+  }
+  #browse .cbg {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .cbg .btn {
+    margin-bottom: 10px;
+  }
+  #browse .box, #browse .minibox {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .box .imgbox, #browse .minibox .imgbox {
+    width: 310px;
+  }
+  #browse .box .textbox, #browse .minibox .textbox {
+    width: 310px;
+    margin-left: 0;
+  }
+  #browse .box .minibox h2, #browse .minibox .minibox h2 {
+    margin: 10px 0;
   }
 }/*# sourceMappingURL=style.css.map */
