@@ -294,29 +294,88 @@ header .btn .icon {
   padding: 17px 53px;
   margin-top: 50px;
 }
-@media screen and (max-width: 401px) {
-  #browse .textbox h4 {
-    width: 328px;
+#browse .big .btn {
+  font-size: 18px;
+  padding: 10px 85px;
+  margin-bottom: 10px;
+}
+#browse .big .big {
+  padding: 12px 35px;
+}
+#browse .big .box {
+  flex-direction: column;
+  width: 300px;
+}
+#browse .big .box .textbox .minibox {
+  flex-direction: column;
+}
+#browse .big .box .textbox .minibox h2 {
+  margin: 10px 0;
+}
+#browse .big .box .textbox .add input {
+  width: 60px;
+  height: 45px;
+}
+@media screen and (min-width: 992px) {
+  #browse .big .box .imgbox {
+    width: 350px;
   }
-  #browse .cbg {
+}
+
+#order .imgbox {
+  width: 600px;
+}
+#order .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#order .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 15px;
+  line-height: 1.3;
+}
+#order .textbox .btn {
+  color: white;
+  font-size: 20px;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 992px) {
+  #order .textbox {
+    text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  #browse .cbg .btn {
-    margin-bottom: 10px;
+  #order .textbox h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    width: 450px;
   }
-  #browse .box, #browse .minibox {
+  #order .imgbox {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  #order .textbox {
+    margin: 20px;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  #browse .box .imgbox, #browse .minibox .imgbox {
-    width: 310px;
+  #order .textbox h1 {
+    margin: 0 80px;
+    font-size: 60px;
+    line-height: 1.2;
+    width: 390px;
   }
-  #browse .box .textbox, #browse .minibox .textbox {
-    width: 310px;
-    margin-left: 0;
-  }
-  #browse .box .minibox h2, #browse .minibox .minibox h2 {
-    margin: 10px 0;
+  #order .imgbox {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

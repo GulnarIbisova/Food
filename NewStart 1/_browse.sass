@@ -58,23 +58,26 @@
         padding: 17px 53px
         margin-top: 50px
 
-    @media screen and ( max-width: 401px)
-        .textbox
-            h4
-                width: 328px
-        .cbg
-            display: flex
+        @media screen and ( max-width: 992px  )
+        .btn
+            font-size: 18px
+            padding: 10px 85px
+            margin-bottom: 10px
+        .big
+            padding: 12px 35px
+        .box
             flex-direction: column
-            .btn
-                margin-bottom: 10px
-        .box,.minibox
-            display: flex
-            flex-direction: column
-            .imgbox
-                width: 310px
+            width: 300px
             .textbox
-                width: 310px
-                margin-left: 0
-            .minibox
-                h2
-                    margin: 10px 0
+                .minibox
+                    flex-direction: column
+                    h2
+                        margin: 10px 0
+                .add
+                    input
+                        width: 60px
+                        height: 45px
+        @media screen and ( min-width: 992px  )
+            .box
+                .imgbox
+                    width: 350px
