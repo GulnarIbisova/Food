@@ -13,10 +13,6 @@ body {
 section {
   padding: 90px 0;
 }
-section h1 {
-  font-size: 45px;
-  font-weight: 700;
-}
 
 header {
   padding: 20px 0;
@@ -434,4 +430,52 @@ header .btn .icon {
 #callour .imgbox {
   width: 100%;
   padding: 80px;
+}
+
+#support .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin: 0 70px 0 40px;
+  line-height: 1.1;
+}
+#support .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#support .textbox .btn {
+  font-size: 22px;
+  color: #38b6c1;
+  background-color: white;
+  padding: 10px 30px;
+  margin: 30px 0 0 40px;
+}
+#support .bgc {
+  background-color: #35b6c1;
+}
+@media screen and (max-width: 776px) {
+  #support .textbox .btn {
+    padding: 10px 70px;
+    margin: 0 70px 80px 0;
+  }
+  #support .bgc {
+    margin: 40px 20px 40px 20px;
+    padding: 60px 20px 60px 20px;
+  }
+  #support .imgbox {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  #support .textbox h1 {
+    margin: 0 10px 0 10px;
+    font-size: 60px;
+  }
+  #support .textbox .btn {
+    padding: 10px 70px;
+    margin: 0 70px 80px 0;
+  }
+  #support .bgc {
+    margin: 40px 20px 40px 20px;
+    padding: 60px 20px 60px 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
